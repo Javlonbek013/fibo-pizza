@@ -11,7 +11,7 @@ import Stock from "./page/Stock";
 import Contacts from "./page/Contacts";
 import Korzina from "./page/korzina";
 import Favorites from "./page/favorites"; 
-import Footer from "./components/footer";
+import Footer from "./components/Footer.jsx";
 
 
 
