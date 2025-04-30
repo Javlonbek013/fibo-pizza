@@ -13,11 +13,11 @@ import Korzina from "./page/korzina";
 import Favorites from "./page/favorites"; 
 import Footer from "./components/footer";
 
-import Footer from "./components/footer";
+
 
 function App() {
   const [cart, setCart] = useState([]);
-  const [favorites, setFavorites] = useState([]); // YANGI STATE
+  const [favorites, setFavorites] = useState([]); 
 
   const addToCard = (item) => {
     const found = cart.some((i) => i.id === item.id);
